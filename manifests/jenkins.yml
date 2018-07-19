@@ -57,8 +57,6 @@ spec:
       containers:
       - image: chadmoon/jenkins-docker-kubectl:latest
         name: jenkins
-        securityContext:
-          privileged: true
         ports:
         - containerPort: 8080
           name: jenkins
